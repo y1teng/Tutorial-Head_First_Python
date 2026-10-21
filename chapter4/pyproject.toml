@@ -1,0 +1,17 @@
+[project]
+name = "alchemist"
+version = "1.0.0"
+description = "'sugoi'"
+authors = [
+    {name = "ayaito",email = "to.ayaito@gmail.com"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy (>=2.5.4,<3.0.0)",
+    "pandas (>=3.0.6,<4.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
